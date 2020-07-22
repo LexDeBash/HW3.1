@@ -14,6 +14,7 @@
 		A80146EA24780953003C77B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80146E924780953003C77B4 /* Preview Assets.xcassets */; };
 		A80146ED24780953003C77B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80146EB24780953003C77B4 /* LaunchScreen.storyboard */; };
 		A80146F524780A4E003C77B4 /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80146F424780A4E003C77B4 /* ColorLight.swift */; };
+		A81BAB9624C8467500B968AA /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81BAB9524C8467500B968AA /* ChangeColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A80146EC24780953003C77B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A80146EE24780953003C77B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A80146F424780A4E003C77B4 /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		A81BAB9524C8467500B968AA /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A80146E224780951003C77B4 /* SceneDelegate.swift */,
 				A80146E424780951003C77B4 /* ContentView.swift */,
 				A80146F424780A4E003C77B4 /* ColorLight.swift */,
+				A81BAB9524C8467500B968AA /* ChangeColorButton.swift */,
 				A80146E624780953003C77B4 /* Assets.xcassets */,
 				A80146EB24780953003C77B4 /* LaunchScreen.storyboard */,
 				A80146EE24780953003C77B4 /* Info.plist */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A80146E124780951003C77B4 /* AppDelegate.swift in Sources */,
+				A81BAB9624C8467500B968AA /* ChangeColorButton.swift in Sources */,
 				A80146F524780A4E003C77B4 /* ColorLight.swift in Sources */,
 				A80146E324780951003C77B4 /* SceneDelegate.swift in Sources */,
 				A80146E524780951003C77B4 /* ContentView.swift in Sources */,

@@ -45,23 +45,10 @@ extension ContentView {
                 
                 Spacer()
                 
-                Button(action: {
+                ChangeColorButton(title: buttonTitle) {
                     self.buttonTitle = "NEXT"
                     self.nextColor()
-                }) {
-                    Text(buttonTitle)
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(Color(.white))
                 }
-                .padding()
-                .frame(width: 200, height: 60)
-                .background(Color(.blue))
-                .cornerRadius(20)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .stroke(Color.white, lineWidth: 4)
-                )
             }
             .padding()
         }
