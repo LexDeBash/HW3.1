@@ -17,7 +17,7 @@ struct ChangeColorButton: View {
             Text(title)
                 .font(.title)
                 .fontWeight(.bold)
-                .foregroundColor(Color(.white))
+                .foregroundColor(Color.white)
             
         }
         .padding()
