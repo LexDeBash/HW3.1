@@ -9,8 +9,8 @@
 import SwiftUI
 
 struct ChangeColorButton: View {
-    var title: String
-    var action: () -> Void
+    let title: String
+    let action: () -> Void
     
     var body: some View {
         Button(action: action) {
