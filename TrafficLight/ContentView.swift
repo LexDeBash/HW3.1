@@ -40,8 +40,10 @@ extension ContentView {
                 Spacer()
                 
                 ChangeColorButton(title: buttonTitle) {
-                    self.buttonTitle = "NEXT"
-                    self.nextColor()
+                    if buttonTitle == "START" {
+                        buttonTitle = "NEXT"
+                    }
+                    nextColor()
                 }
             }
             .padding()
