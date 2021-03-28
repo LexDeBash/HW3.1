@@ -48,7 +48,7 @@ extension ContentView {
     var body: some View {
         ZStack {
             Color(.black)
-                .edgesIgnoringSafeArea(.all)
+                .ignoresSafeArea()
             
             VStack(spacing: 20) {
                 ColorLight(color: .red, opacity: redLightState)
@@ -58,7 +58,9 @@ extension ContentView {
                 Spacer()
                 
                 ChangeColorButton(title: buttonTitle) {
-                    buttonTitle = "NEXT"
+                    if buttonTitle == "START" {
+                        buttonTitle = "NEXT"
+                    }
                     nextColor()
                 }
             }
