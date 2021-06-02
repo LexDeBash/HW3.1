@@ -47,7 +47,7 @@ struct ContentView: View {
 extension ContentView {
     var body: some View {
         ZStack {
-            Color(.black)
+            Color.black
                 .ignoresSafeArea()
             
             VStack(spacing: 20) {
