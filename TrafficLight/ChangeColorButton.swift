@@ -25,7 +25,7 @@ struct ChangeColorButton: View {
         .background(Color(.blue))
         .cornerRadius(20)
         .overlay(
-            RoundedRectangle(cornerRadius: 20, style: .continuous)
+            RoundedRectangle(cornerRadius: 20)
                 .stroke(Color.white, lineWidth: 4)
         )
     }
